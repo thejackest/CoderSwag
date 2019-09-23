@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "you clicked on the ${category.title} cell", Toast.LENGTH_SHORT)
         }*/
         val layoutManager = LinearLayoutManager(this)
-        categoryListView.layoutManager
+        categoryListView.layoutManager = layoutManager
         categoryListView.setHasFixedSize(true)
     }
 }
