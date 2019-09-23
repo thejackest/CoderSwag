@@ -2,7 +2,7 @@ package com.jackest.coderswag.Services
 
 import com.jackest.coderswag.Model.Category
 import com.jackest.coderswag.Model.Product
-
+//singleton
 object DataServices {
     val categories = listOf(
         Category("SHIRTS","shirtimage"),
@@ -21,7 +21,7 @@ object DataServices {
         Category("DIGITAL","digitalgoodsimage")
     )
     val hats = listOf(
-        Product("Graphic Beanie", "$18", "hats1"),
+        Product("Graphic Beanie", "$18", "hat1"),
         Product("Hat Black","$28","hat2"),
         Product("Hat White","$20","hat2"),
         Product("Hat Snapback", "$22", "hat4")
